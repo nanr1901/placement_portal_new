@@ -12,7 +12,7 @@ return(
   <div className="title-text">NITT Placement Portal</div>
   </div>
    <ul>
-  <li>Home</li>
+  <li><a href="/">Home</a></li>
   <li>Academics</li>
   <li>Past recruiters</li>
   <li>Contact us</li>
