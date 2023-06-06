@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import logo from "./Components/NITT Logo - White 1.png"
-
+//import Academics from "./Academics";
 const NavBar=()=>{
 return(
   <div className="navbar">
@@ -13,9 +13,9 @@ return(
   </div>
    <ul>
   <li><a href="/">Home</a></li>
-  <li>Academics</li>
-  <li>Past recruiters</li>
-  <li>Contact us</li>
+  <li><a href="/">Academics</a></li>
+  <li><a href="/">Past recruiters</a></li>
+  <li><a href="/">Contact us</a></li>
 </ul>
     </div>
   
