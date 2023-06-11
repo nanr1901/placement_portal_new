@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./Login.css";
 
 
@@ -8,8 +9,9 @@ const Login=()=>{
 
             <div className="login-box">
                 <div className="login">Login</div><br/>
-                <button className="student-btn" value="Student">Students</button><br/>
-                <button className="recruiter-btn" value="Recruiter">Recruiters</button>
+             <Link to="/StudentSignIn" > <button className="student-btn" value="Student">Students</button></Link><br/>
+               <Link to="/RecSignIn"> <button className="recruiter-btn" value="Recruiter">Recruiters</button></Link>
+               <Link to="/SignUp"><div class="sign-up"> First Time? Sign Up </div></Link> 
             </div>
             <div className="we-care-box">
                 <span className="we-care">We Care</span> <br></br>
