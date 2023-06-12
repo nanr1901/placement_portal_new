@@ -1,0 +1,26 @@
+.student-profile-bg
+{
+    background-color: #d0ece4;
+    margin: 0;
+    padding: 0;
+    flex:1;
+}
+.student-profile-heading{
+    padding: 3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.student-profile-details{
+    display:flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 40%;
+    height: 30%;
+   
+}

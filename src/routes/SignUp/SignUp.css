@@ -1,0 +1,47 @@
+.signUpBackground{
+    background-color: #d0ece4;
+    display:flex;
+    flex:1;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.signUpBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+margin:auto;
+background-color: white;
+border-radius: 1rem;
+padding: 2rem;
+}
+
+.signUpText{
+    font-weight: 600;
+    padding-bottom: 3rem;
+    font-size: 1.3rem;
+}
+
+input{
+    background-color: #D9D9D9;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    color: white;
+    border-color: #D9D9D9;;
+}
+
+.submit-btn{
+    background-color: #03A38F;
+}
+
+.sign-up{
+    color:white;
+    align-items: center;
+}
