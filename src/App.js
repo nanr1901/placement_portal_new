@@ -4,6 +4,7 @@ import StudentProfile from './routes/StudentProfile/StudentProfile';
 import SignUp from './routes/SignUp/SignUp';
 import StudentSignIn from './routes/SignIn/StudentSignIn/StudentSignIn';
 import RecSignIn from './routes/SignIn/StudentSignIn/RecSignIn';
+import RecruiterProfile from './routes/RecruiterProfile/RecruiterProfile';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
           <Route path="/SignUp" element={<SignUp/>}/>
           <Route path="/StudentSignIn" element={<StudentSignIn/>}/>
           <Route path="/RecSignIn" element={<RecSignIn/>}/>
+          <Route path="/RecruiterProfile" element={<RecruiterProfile/>}/>
+
           {/* <Route path="/mim" element={<MimicScreen />} /> */}
           
         </Routes>
