@@ -37,6 +37,7 @@
     height:10%;
     word-wrap: break-word;
     border-radius: 2px;
+    font-family: Epilogue;
 }
 
 .button::hover{
