@@ -1,0 +1,36 @@
+
+.department{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .dpts{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .row{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card
+  {
+    width:18rem;
+    margin:1rem;
+    outline-color: white;
+    padding:1rem;
+  }
+  .card-body
+  {
+    text-align: center;
+    background-color: #D3D3D3;
+    padding:1rem;
+  }
+  
+  
