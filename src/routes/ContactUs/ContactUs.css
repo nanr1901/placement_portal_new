@@ -1,0 +1,35 @@
+.contact-box{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    margin-top: 5rem;
+    background-color: white;
+    padding: 1rem;
+    width:50%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+  
+}
+
+.contact-page{
+    display:flex;
+    flex-direction: column;
+    background-color: #CDE9E5;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.contact-name{
+   font-weight: bold;
+}
+
+.contact-image{
+   scale:0.8;
+   padding-right: 2rem;
+}
+
+

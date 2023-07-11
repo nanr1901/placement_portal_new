@@ -1,0 +1,52 @@
+.recruiter-profile-bg
+{
+    background-color: #d0ece4;
+    margin: 0;
+    padding: 0;
+    flex:1;
+}
+.recruiter-profile-heading{
+    padding: 3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.recruiter-profile-details{
+    display:flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 40%;
+    height: 30%;
+   
+}
+
+.applicants{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    margin:1rem;
+    width:10%;
+    font-size: 1.3rem;
+    height:10%;
+    word-wrap: break-word;
+    border-radius: 2px;
+    font-family: Epilogue;
+}
+
+.button::hover{
+opacity:0.5;
+}
+
+.button:active {
+    background-color: #03A38F;
+
+    box-shadow: 0.5px #666;
+    transform: translateY(4px);
+  }
